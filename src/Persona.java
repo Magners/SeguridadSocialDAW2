@@ -58,9 +58,25 @@ public class Persona {
         Salario = salario;
     }
 
-    public Persona(String DNI, String SS, String Nombre, String Apellido, int Edad, double Salario) {
+    public Persona(String DNI, String SS, String nombre, String apellido, int edad, double salario) {
+        this.DNI = DNI;
+        this.SS = SS;
+        Nombre = nombre;
+        Apellido = apellido;
+        Edad = edad;
+        Salario = salario;
+    }
 
-
+    @Override
+    public String toString() {
+        return "Persona{" +
+                "DNI='" + DNI + '\'' +
+                ", SS='" + SS + '\'' +
+                ", Nombre='" + Nombre + '\'' +
+                ", Apellido='" + Apellido + '\'' +
+                ", Edad=" + Edad +
+                ", Salario=" + Salario +
+                '}';
     }
 }
 

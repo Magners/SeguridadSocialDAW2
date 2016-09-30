@@ -53,7 +53,7 @@ public class SeguridadSocial {
                 break;
             }
         }
-        if(!repetida){
+        if(repetida==false){
             personasList.add(persona);
         }
 
