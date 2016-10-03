@@ -61,7 +61,7 @@ public class Persona {
     public Persona(String DNI, String SS, String nombre, String apellido, int edad, double salario) {
         this.DNI = DNI;
         this.SS = SS;
-        Nombre = nombre;
+        Nombre = nombre; //uhduhfdu
         Apellido = apellido;
         Edad = edad;
         Salario = salario;
